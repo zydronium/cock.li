@@ -1,0 +1,5 @@
+/vendor
+/node_modules
+/public/transparency
+/public/donations
+.env

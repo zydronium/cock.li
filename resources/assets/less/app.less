@@ -1,0 +1,42 @@
+@import "bootstrap/bootstrap";
+
+@btn-font-weight: 300;
+@font-family-sans-serif: "Roboto", Helvetica, Arial, sans-serif;
+
+body, label, .checkbox label {
+	font-weight: 300;
+}
+
+body {
+  .logo {
+    vertical-align: baseline;
+  }
+  h1.title {
+    display: inline;
+  }
+  .navbar {
+    .nav.navbar-nav {
+      margin-left: -15px;
+    }
+  }
+}
+
+@media screen and (max-width: @screen-sm-max) {
+  body {
+    .logo {
+      width: 160px;
+    }
+    h1.title {
+      font-size: 28px;
+    }
+  }
+}
+
+@media screen and (max-width: @screen-xs-max) {
+  body {
+    .logo {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}
