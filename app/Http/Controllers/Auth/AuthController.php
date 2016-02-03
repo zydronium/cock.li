@@ -76,9 +76,9 @@ class AuthController extends Controller {
 
 		$this->auth->login($this->registrar->create($request->all()));
 
-    //Mail::send(['text' => 'emails.welcome'], ['username' => Auth::user()->email], function($message){
-    //  $message->to(Auth::user()->email)->subject('Welcome to Cockmail!');
-    //});
+    Mail::send(['text' => 'emails.welcome'], ['username' => Auth::user()->email], function($message){
+      $message->to(Auth::user()->email)->subject('Welcome to Cockmail!');
+    });
 
 		return redirect($this->redirectPath());
 	}
