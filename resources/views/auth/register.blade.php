@@ -90,7 +90,7 @@ window.onload = function(){
 
   <div class="form-group">
     <div class="col-md-6 col-md-offset-4">
-      <input type="checkbox"  name="news_subscription" checked> Receive news and updates about cock.li via E-mail
+      <input type="checkbox"  name="news_subscription" checked> This button doesn't do anything yet.
     </div>
   </div>
 
