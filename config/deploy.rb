@@ -37,7 +37,7 @@ set :linked_dirs, fetch(:linked_dirs, []).push('public/transparency','public/don
 
 namespace :deploy do
 
-  after :updated do
+  after :updated, :composer do
     on roles(:web), in: :groups, limit: 3, wait: 10 do
       # Here we can do anything such as:
       within release_path do
