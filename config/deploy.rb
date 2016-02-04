@@ -39,9 +39,24 @@ namespace :deploy do
 
   after :updated, :composer do
     on roles(:web), in: :groups, limit: 3, wait: 10 do
-      # Here we can do anything such as:
       within release_path do
         execute :composer, :install
+      end
+    end
+  end
+
+  after :updated, :db_backup do
+    on roles(:web), in: :groups, limit: 3, wait: 10 do
+      within release_path do
+        execute :mysqldump, :mail, "-r ~/mail.sql"
+      end
+    end
+  end
+
+  after :db_backup, :migrate do
+    on roles(:web), in: :groups, limit: 3, wait: 10 do
+      within release_path do
+        execute :php, :artisan, :migrate, "--force"
       end
     end
   end
