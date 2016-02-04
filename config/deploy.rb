@@ -8,7 +8,7 @@ set :repo_url, 'git@cock.li:cock.li.git'
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
-set :deploy_to, "/var/www/test.#{fetch(:application)}/cap"
+set :deploy_to, "/var/www/#{fetch(:application)}/cap"
 
 # Default value for :scm is :git
 # set :scm, :git
@@ -27,7 +27,7 @@ set :linked_files, fetch(:linked_files, []).push('.env','storage/laravel.log')
 
 # Default value for linked_dirs is []
 # set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', 'public/system')
-set :linked_dirs, fetch(:linked_dirs, []).push('public/transparency','public/donations')
+set :linked_dirs, fetch(:linked_dirs, []).push('public/transparency','public/donations','storage/app','storage/logs','storage/framework')
 
 # Default value for default_env is {}
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
