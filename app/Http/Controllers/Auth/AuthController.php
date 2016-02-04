@@ -78,7 +78,7 @@ class AuthController extends Controller {
 
     if($data['news_subscription'] === "on" && env('APP_ENV','local') === 'production') {
       $un = $data['email'];
-      `echo "$un" | /usr/lib/mailman/bin/add_members -w n cock.li-news`;
+      `echo "$un" | /usr/lib/mailman/bin/add_members -w n -r - cock.li-news`;
     }
 
     Mail::send(['text' => 'emails.welcome'], ['username' => Auth::user()->email], function($message){
