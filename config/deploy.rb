@@ -38,7 +38,7 @@ set :linked_dirs, fetch(:linked_dirs, []).push('public/transparency','public/don
 namespace :deploy do
 
   after :updated, :composer do
-    on roles(:web), in: :groups, limit: 3, wait: 10 do
+    on roles(:web) do
       within release_path do
         execute :composer, :install
       end
@@ -46,7 +46,7 @@ namespace :deploy do
   end
 
   after :updated, :db_backup do
-    on roles(:web), in: :groups, limit: 3, wait: 10 do
+    on roles(:web) do
       within release_path do
         execute :mysqldump, :mail, "-r ~/mail.sql"
       end
@@ -54,7 +54,7 @@ namespace :deploy do
   end
 
   after :db_backup, :migrate do
-    on roles(:web), in: :groups, limit: 3, wait: 10 do
+    on roles(:web) do
       within release_path do
         execute :php, :artisan, :migrate, "--force"
       end
