@@ -37,7 +37,7 @@
             <li><a href="{{ url('/server') }}">Server Info</a></li>
             <li><a href="{{ url('/mailinglist') }}">Mailing List</a></li>
             <li><a href="{{ url('/donate') }}">Donate</a></li>
-            <li><a href="{{ url('https://mail.cock.li/') }}">Webmail</a></li>
+            <li><a href="{{ $_SERVER['SERVER_NAME'] == 'wwwcocklicdexedh.onion' ? url('http://cockmailwwfvrtqj.onion') : url('https://mail.cock.li/') }}">Webmail</a></li>
             <li><a href="{{ url('/xmpp') }}">XMPP</a></li>
             <li><a href="{{ url('https://twitter.com/gexcolo') }}">Twitter</a></li>
           </ul>
