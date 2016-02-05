@@ -76,7 +76,7 @@ class AuthController extends Controller {
 
 		$this->auth->login($this->registrar->create($request->all()));
 
-    if($data['news_subscription'] === "on" && env('APP_ENV','local') === 'production') {
+    if(isset($data['news_subscription']) && $data['news_subscription'] === "on" && env('APP_ENV','local') === 'production') {
       $un = $data['email'];
       `echo "$un" | /usr/lib/mailman/bin/add_members -w n -r - cock.li-news`;
     }
