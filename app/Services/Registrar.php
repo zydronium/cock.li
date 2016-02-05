@@ -18,7 +18,7 @@ class Registrar implements RegistrarContract {
 		Validator::extend('floodprotection', function ($attribute, $value, $parameters) 
     {
       $time = Carbon::now()->subDay();
-      return User::where('registered_ip',$_SERVER['REMOTE_ADDR'])->where('created_at','>=',$time)->count() < 5;
+      return User::where('registered_ip',$_SERVER['REMOTE_ADDR'])->where('created_at','>=',$time)->count() < env('REGISTRATION_LIMIT',5);
 		});
 
 		return Validator::make($data, [
