@@ -18,6 +18,6 @@
 </ul>
 
 <h4>No password resets</h4>
-<p><strong>NONE.</strong> <small>(unless I have signed your PGP key beforehand.)</small></p>
+<p><strong>NONE.</strong></p>
 
 @endsection

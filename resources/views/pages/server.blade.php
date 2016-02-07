@@ -45,7 +45,7 @@
 <dl>
   <dt>I forgot my password!</dt>
   <dd>
-    The only chance you ever have of getting your password reset is if I have previously signed your PGP key. If I haven't, <strong>there is no way to get your password reset</strong>, so either remember your password or get me to sign your PGP key. If I have signed your PGP key and you need it reset, <a href="mailto:vc@cock.li">send me a message</a> signed with that same PGP key and I will reset it for you.
+    Remember it. I don't reset passwords.
   </dd>
 
   <dt>I can't log in</dt>
