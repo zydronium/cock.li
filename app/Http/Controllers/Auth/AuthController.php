@@ -61,6 +61,7 @@ class AuthController extends Controller {
     $data = $request->all();
 
     if(isset($data['username']) && isset($data['domain'])) {
+      $data['username'] = strtolower($data['username']);
       $data['email'] = $data['username'] . '@' . $data['domain'];
       $data['email'] = strtolower($data['email']);
     }
@@ -74,7 +75,7 @@ class AuthController extends Controller {
 			);
 		}
 
-		$this->auth->login($this->registrar->create($request->all()));
+		$this->auth->login($this->registrar->create($data));
 
     if(isset($data['news_subscription']) && $data['news_subscription'] === "on" && env('APP_ENV','local') === 'production') {
       $un = $data['email'];
