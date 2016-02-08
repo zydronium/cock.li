@@ -45,7 +45,7 @@ class Registrar implements RegistrarContract {
 	public function create(array $data)
 	{
 		return User::create([
-			'email' => $data['username'] . '@' . $data['domain'],
+			'email' => strtolower($data['username'] . '@' . $data['domain']),
 			'password' => bcrypt($data['password']),
       'registered_ip' => $_SERVER['REMOTE_ADDR'],
 		]);
