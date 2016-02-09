@@ -69,6 +69,7 @@
         $balance_operator = ( $donations["this"]["balance"] >= 0 ? '-' : '+' );
         $balance_verbage = ( $donations["this"]["balance"] >= 0 ? 'surplus' : 'deficit' );
         $progress_bar_class = ( $_donations >= $goal ? 'success' : 'info');
+        $goal_reached = $_donations >= $goal;
 
         if($_donations > $goal)
           $progress_bar_width = 100.00;
@@ -99,6 +100,11 @@
       </div>
       <p><strong>Donations</strong>: $<?=sprintf("%1.2f",$_donations)?></p>
       <p><strong>Goal</strong>: $<?=sprintf("%1.2f",$goal)?> ($<?=sprintf("%1.2f",$donations["last"]["expenses"])?> {{ $balance_operator }} $<?=sprintf("%1.2f",abs($donations["last"]["balance"]))?> {{ $balance_verbage }})</p>
+      @if($goal_reached)
+      <div class='alert alert-success'>
+        The donation goal for this month has been reached! Thanks for your support. Instead of donating to cock.li this month, would you please donate to <strong><a href='https://whisper.networkforgood.com/'>my lawyer</a></strong>? She has represented the site pro-bono and asked nothing in return, and she represents whistleblowers like Edward Snowden, Thomas Drake, and a bunch more people a lot more important than cock.li. She has done a lot for this site and the world, and I would really appreciate her work being recognized. Thanks.
+      </div>
+      @endif
       <p>
         Donations are calculated such that any surplus or deficit is carried to the next month. This ensures that cock.li operates not-for-profit. You can read more details and financial reports on the <a href="/donate">Donate</a> page.
       </p>
