@@ -173,6 +173,7 @@
 	<li><a href="/donations/2015-11.txt">November 2015</a></li>
 	<li><a href="/donations/2015-12.txt">December 2015</a></li>
 	<li><a href="/donations/2016-01.txt">January 2016</a></li>
+	<li><a href="/donations/2016-02.txt">February 2016</a></li>
 </ul>
 
 @endsection
