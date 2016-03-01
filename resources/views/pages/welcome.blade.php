@@ -7,7 +7,7 @@
     {!! $testimonial->content !!}
     <footer>{{ $testimonial->name }}</footer>
   </blockquote>
-  <img src="/img/aaa.png" class="center-block" />
+  <a href="https://aaathats3as.com"><img src="/img/aaa.png" class="center-block" /></a>
   <p>
   Cock.li is your go-to solution for professional E-mail addresses and XMPP addresses. Since 2013 cock.li has provided stable E-mail services to an ever-increasing number of users. Cock.li allows registration and usage using Tor and other privacy services (proxies, VPNs) and is run by "some dude", not a business. I use this E-mail service personally so I have a vested interest in keeping it up, stable, and secure.
   </p>
