@@ -12,25 +12,15 @@
   Cock.li is your go-to solution for professional E-mail addresses and XMPP addresses. Since 2013 cock.li has provided stable E-mail services to an ever-increasing number of users. Cock.li allows registration and usage using Tor and other privacy services (proxies, VPNs) and is run by "some dude", not a business. I use this E-mail service personally so I have a vested interest in keeping it up, stable, and secure.
   </p>
 
-  <div class="alert alert-warning">
-    <h2 style='margin-top: 0'>Notice Regarding Der Fritz</h2>
+  <div class="alert alert-success">
+    <h2 style='margin-top: 0'>NAZI PROPELLANT DEPLOYED. USERNAME RESERVATION ACTIVATED</h2>
     <p>
-      The German procesution office in the city of Zwickau has seized two of cock.li's hard drives, about 3 weeks apart, resulting in the total loss of mail storage and everything else stored on the server. I've restored the service from a backup of the user database, but since there was no database replication I cannot enable registration on the existing domains without risking account impersonation by those that register someone else's missing account before the actual owner does. Due to this fact and my commitment to protect my users from impersonation, registration will only be open for <i>new</i> domains until I get the HDDs back.
+      The Germans have demonstrated they do not give a fuck about anything except their weird scat fetishes, and I have given up hope that the HDDs will ever be returned. The prosecutor, Jürgen Pfeiffer, is throwing every obstacle possible and has demonstrated I won't see those drives any time soon. So, in the face of incompetent government (honestly, it was wishful thinking to think otherwise) I have deployed my alternative plan to get cock.li registration enabled.
     </p>
     <p>
-      Cock.li is now colocated with <a href='https://flokinet.is/'>FlokiNET</a>, in Bucharest, Romania, a privacy-conscious host that has proved it will advocate for the privacy of its customers.
+      If you lost a username in the raid (which means you registered between December 22 and January 15), you can reserve it by logging in (to a different / new account) and clicking "Reserve Old Username" in the User menu. Other details are on that page.
     </p>
-    <h3>Frequently Asked Guestions</h2>
-    <dl>
-      <dt>Is this why all my mails are gone / why my account disappeared?</dt>
-      <dd>Yes.</dd>
-
-      <dt>When will things be back to normal?</dt>
-      <dd>When I get the HDD back</dd>
-
-      <dt>Can you recover my account / mails anyway?</dt>
-      <dd>No wtf, pls stop asking</dd>
-    </dl>
+    <p>Registration for all domains will be re-enabled on <strong>JUNE 10, 2016</strong>. The great cock will stand at full-mast once again and the Phallic Reich will reign for a thousand years.</p>
   </div>
 
   <h2>Contact</h2>
@@ -51,7 +41,7 @@
         <tr>
           <td>{{ $domain->domain }}</td>
           <td>{{ $domain->count }}</td>
-          <td>@if ($domain->open) <strong style="color:#090;">YES</strong> @else <strong style="color:#900;">NO</strong> @endif</td>
+          <td>@if ($domain->open) <strong style="color:#090;">YES</strong> @else <strong style="color:#990;">RESERVE</strong> @endif</td>
         </tr>
         @endforeach
         <tr>

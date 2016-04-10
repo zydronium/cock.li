@@ -45,4 +45,28 @@ class UserController extends Controller {
 		
 	}
 
+	public function getReserve() {
+    return view('pages.user.reserve')->with('reserved',Auth::user()->reserved_username);
+	}
+
+	public function postReserve(Request $request) {
+		Validator::extend('gayhomo', function ($attribute, $value, $parameters) 
+		{
+      return Auth::user()->reserved_username === '';
+		});
+		$this->validate($request, [
+			'reserved_username' => 'required|max:512|gayhomo',
+		],[
+      			'reserved_username.max' => 'Reserved username field must be <= 512 characters',
+      			'reserved_username.gayhomo' => 'You\'ve already reserved a username! fag!',
+		]);
+
+		$user = Auth::user();
+		$user->reserved_username = $request->reserved_username;
+		$user->save();
+
+		return redirect('/user/reserve')->with('message','Your username has been painstakingly chiseled into the stone of cock. A quiet breeze brushes away the remaining dust and you feel a warmth come over you, knowing your your mark has been made. The rumbling you hear in the distance is your call back to duty as the Phallic Reich gears up to take back from the Nazis what is rightfully theirs. CUM MENTULUS, UNITAS.');
+		
+	}
+
 }
