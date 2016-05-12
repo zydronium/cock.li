@@ -25,7 +25,7 @@
 
   <h2>Contact</h2>
   <p>
-    Cock.li is owned and operated by <a href="http://vc.gg/">Vincent Canfield &lt;vc@cock.li&gt;</a>. Anyone else claiming to be staff is lying and if you believe them you deserve anything that happens to you. I can be reached via E-mail or by phone at <a href="tel:+12062036677">+1.206 203 6677</a>. This phone number reaches my cell phone and will wake me up, so please only call after 1AM UTC if the server is down.
+    Cock.li is owned and operated by <a href="http://vc.gg/">Vincent Canfield &lt;vc@cock.li&gt;</a>. Anyone else claiming to be staff is lying and if you believe them you deserve anything that happens to you. I can be reached via E-mail or by phone at <a href="tel:+16626256266">+1.662 625 6266</a> (+1 66-COCKMAN-6). This phone number reaches my cell phone and will wake me up, so please only call after 12AM UTC if the server is down.
   </p>
 
   <div class="row">

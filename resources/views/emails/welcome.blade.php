@@ -2,7 +2,7 @@ Dear {{ $username }},
 
 You're traveling through another dimension -- a dimension not only of sight and sound but of mind. A journey into a wondrous land whose boundaries are that of imagination. That's a signpost up ahead: your next stop: the cum zone!
 
-Welcome to cock.li. I hope you'll enjoy your stupid E-mail account. If you have any questions, you can respond to this E-mail or contact me directly at vc@cock.li or by telephone at +1.206 203 6677. Please don't call after 1AM UTC unless the server is down, thanks!
+Welcome to cock.li. I hope you'll enjoy your stupid E-mail account. If you have any questions, you can respond to this E-mail or contact me directly at vc@cock.li or by telephone at +1.662 625 6266 (66-COCKMAN-6). Please don't call after 12AM UTC unless the server is down, thanks!
 
 Here's some links:
 https://soundcloud.com/ytcrackers/welcome-to-the-cum-zone -- good song 10/10
