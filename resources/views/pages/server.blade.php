@@ -22,16 +22,16 @@
     <td>mail.cock.li</td>
   </tr>
   <tr>
-    <td>Port</td>
-    <td>143 or 993</td>
-    <td>110 or 995</td>
-    <td>25, 465, 587, or 55555</td>
+    <td>STARTTLS Port</td>
+    <td>143</td>
+    <td>110</td>
+    <td>587</td>
   </tr>
   <tr>
-    <td>Encryption</td>
-    <td>STARTTLS</td>
-    <td>STARTTLS</td>
-    <td>STARTTLS</td>
+    <td>SSL/TLS Port</td>
+    <td>993</td>
+    <td>995</td>
+    <td>465</td>
   </tr>
   <tr>
     <td>Username</td>
