@@ -110,9 +110,9 @@
 
       <h2>Hidden Services</h2>
       <ul>
-        <li>Website: <a href='http://wwwcocklicdexedh.onion/'>wwwcocklicdexedh.onion</a></li>
-        <li>Webmail: <a href='http://cockmailwwfvrtqj.onion/'>cockmailwwfvrtqj.onion</a></li>
-        <li>IMAP, POP, and SMTP are not yet available via hidden services.</li>
+        <li>Website: <a href='http://cockmailwwfvrtqj.onion/'>cockmailwwfvrtqj.onion</a></li>
+        <li>Webmail: <a href='http://mail.cockmailwwfvrtqj.onion/'>mail.cockmailwwfvrtqj.onion</a></li>
+        <li>IMAP, POP, and SMTP ports are open.</li>
       </ul>
     </div>
   </div>
