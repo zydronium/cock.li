@@ -2,7 +2,7 @@
 lock '3.5.0'
 
 set :application, 'cock.li'
-set :repo_url, 'git@cock.li:cock.li.git'
+set :repo_url, '/home/git/cock.li.git'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
