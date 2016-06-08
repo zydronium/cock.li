@@ -22,7 +22,7 @@
     <nav class="navbar navbar-default">
       <div class="container-fluid">
         <div class="navbar-header">
-          <div class="navbar-brand visible-xs">Cock.li &mdash; Yeah it's mail with cocks</div>
+          <div class="navbar-brand visible-xs">Cock.li &mdash; Mail with cocks</div>
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
             <span class="sr-only">Toggle Navigation</span>
             <span class="icon-bar"></span>
