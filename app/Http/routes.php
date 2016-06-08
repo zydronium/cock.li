@@ -12,6 +12,9 @@ use App\Http\Controllers;
 |
 */
 
+use App\User;
+use App\Domain;
+
 Route::get('/', 'WelcomeController@index');
 
 Route::get('/server', function() {

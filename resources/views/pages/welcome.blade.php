@@ -4,8 +4,7 @@
 
 @section('content')
   <div class="text-center">
-    <a href="https://aaathats3as.com" target="_blank"><img src="/img/aaa.png" style='max-width: 100%' /></a>
-    <a href="https://box.cock.li" target="_blank"><img src="/img/cockbox.png" style='max-width: 100%' /></a>
+    <a href="https://aaathats3as.com" target="_blank"><img src="/img/aaa.png" style='max-width: 100%' /></a><a href="https://box.cock.li" target="_blank"><img src="/img/cockbox.png" style='max-width: 100%' /></a>
   </div>
   <blockquote>
     {!! $testimonial->content !!}
@@ -14,17 +13,6 @@
   <p>
   Cock.li is your go-to solution for professional E-mail addresses and XMPP addresses. Since 2013 cock.li has provided stable E-mail services to an ever-increasing number of users. Cock.li allows registration and usage using Tor and other privacy services (proxies, VPNs) and is run by "some dude", not a business. I use this E-mail service personally so I have a vested interest in keeping it up, stable, and secure.
   </p>
-
-  <div class="alert alert-success">
-    <h2 style='margin-top: 0'>NAZI PROPELLANT DEPLOYED. USERNAME RESERVATION ACTIVATED</h2>
-    <p>
-      The Germans have demonstrated they do not give a fuck about anything except their weird scat fetishes, and I have given up hope that the HDDs will ever be returned. The prosecutor, Jürgen Pfeiffer, is throwing every obstacle possible and has demonstrated I won't see those drives any time soon. So, in the face of incompetent government (honestly, it was wishful thinking to think otherwise) I have deployed my alternative plan to get cock.li registration enabled.
-    </p>
-    <p>
-      If you lost a username in the raid (which means you registered between December 22 and January 15), you can reserve it by logging in (to a different / new account) and clicking "Reserve Old Username" in the User menu. Other details are on that page.
-    </p>
-    <p>Registration for all domains will be re-enabled on <strong>JUNE 10, 2016</strong>. The great cock will stand at full-mast once again and the Phallic Reich will reign for a thousand years.</p>
-  </div>
 
   <h2>Contact</h2>
   <p>
@@ -38,13 +26,11 @@
         <tr>
           <th>Domain</th>
           <th># Users</th>
-          <th>Registration Open</th>
         </tr>
         @foreach ($domains as $domain)
         <tr>
           <td>{{ $domain->domain }}</td>
           <td>{{ $domain->count }}</td>
-          <td>@if ($domain->open) <strong style="color:#090;">YES</strong> @else <strong style="color:#990;">RESERVE</strong> @endif</td>
         </tr>
         @endforeach
         <tr>
@@ -114,9 +100,10 @@
         <li>Webmail: <a href='http://mail.cockmailwwfvrtqj.onion/'>mail.cockmailwwfvrtqj.onion</a></li>
         <li>IMAP, POP, and SMTP ports are open.</li>
       </ul>
+      <h2>How can I trust you?</h2>
+      <p>
+        You can't. Cock.li doesn't parse your E-mail to provide you with targeted ads, nor do I read E-mail contents unless it's for a legal court order. However, it is 100% possible for me to read E-mail, and IMAP/SMTP doesn't provide user-side/client-side encryption, so you're just going to have to take my word for it. Any encryption implementation would still technically allow me to read E-mail, too. This was true for Lavabit as well -- while your E-mail was stored encrypted (only if you were a paid member, which most people forget), E-mail could still technically be intercepted while being received / sent (SMTP), or while being read by your mail client (IMAP). For privacy, I would recommend encrypting your E-mails using <a href="https://en.wikipedia.org/wiki/Pretty_Good_Privacy">PGP</a> using a mail client add-on like <a href="https://enigmail.net/home/index.php">Enigmail</a>.
+      </p>
     </div>
   </div>
-  <h2>How can I trust you?</h2>
-  <p>
-    You can't. Cock.li doesn't parse your E-mail to provide you with targeted ads, nor do I read E-mail contents unless it's for a legal court order. However, it is 100% possible for me to read E-mail, and IMAP/SMTP doesn't provide user-side/client-side encryption, so you're just going to have to take my word for it. Any encryption implementation would still technically allow me to read E-mail, too. This was true for Lavabit as well -- while your E-mail was stored encrypted (only if you were a paid member, which most people forget), E-mail could still technically be intercepted while being received / sent (SMTP), or while being read by your mail client (IMAP). For privacy, I would recommend encrypting your E-mails using <a href="https://en.wikipedia.org/wiki/Pretty_Good_Privacy">PGP</a> using a mail client add-on like <a href="https://enigmail.net/home/index.php">Enigmail</a>.
 @endsection
