@@ -104,6 +104,13 @@
       <p>
         You can't. Cock.li doesn't parse your E-mail to provide you with targeted ads, nor do I read E-mail contents unless it's for a legal court order. However, it is 100% possible for me to read E-mail, and IMAP/SMTP doesn't provide user-side/client-side encryption, so you're just going to have to take my word for it. Any encryption implementation would still technically allow me to read E-mail, too. This was true for Lavabit as well -- while your E-mail was stored encrypted (only if you were a paid member, which most people forget), E-mail could still technically be intercepted while being received / sent (SMTP), or while being read by your mail client (IMAP). For privacy, I would recommend encrypting your E-mails using <a href="https://en.wikipedia.org/wiki/Pretty_Good_Privacy">PGP</a> using a mail client add-on like <a href="https://enigmail.net/home/index.php">Enigmail</a>.
       </p>
+      <p> Also, there's this quote from /g/:</p>
+      <em><p>
+        Administering a mail host is sort of like being a nurse; there's a brief period at the start when the thought of seeing people's privates might be vaguely titillating in a theoretical sense, but that sort of thing doesn't last long when it's up against the daily reality of shit, piss, blood, and vomit.
+      </p>
+      <p>
+        Now that I think about it, administering a mail host is exactly like being a nurse, only people die slightly less often.
+      </p></em>
     </div>
   </div>
 @endsection
