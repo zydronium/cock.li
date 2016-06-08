@@ -58,7 +58,7 @@ window.onload = function(){
         <span class="input-group-addon">@</span>
         <select id='domain' name="domain" class="form-control" >
         @foreach ($domains as $domain)
-          <option<?=$domain->domain === "cock.lu" ? " selected" : ""?>>{{ $domain->domain }}</option>
+          <option>{{ $domain->domain }}</option>
         @endforeach
         </select>
       </div>
