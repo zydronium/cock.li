@@ -63,4 +63,78 @@
     no u
   </dd>
 </dl>
+
+<h2>Infrastructure</h2>
+
+<div class='row'>
+  <div class='col-sm-4'>
+  <table class='table table-bordered table-striped'>
+    <tr>
+      <th colspan='2' class='text-center'>mx1.cock.li</th>
+    </tr>
+    <tr>
+      <th>Host</th>
+      <td>Flokinet</td>
+    </tr>
+    <tr>
+      <th>Country</th>
+      <td>Romania</td>
+    </tr>
+    <tr>
+      <th>IP</th>
+      <td>185.100.85.212</td>
+    </tr>
+    <tr>
+      <th>Type</th>
+      <td>Colocated</td>
+    </tr>
+  </table>
+  </div>
+  <div class='col-sm-4'>
+  <table class='table table-bordered table-striped'>
+    <tr>
+      <th colspan='2' class='text-center'>mx2.cock.li</th>
+    </tr>
+    <tr>
+      <th>Host</th>
+      <td>"some pasta host"</td>
+    </tr>
+    <tr>
+      <th>Country</th>
+      <td>Italy</td>
+    </tr>
+    <tr>
+      <th>IP</th>
+      <td>193.234.224.104</td>
+    </tr>
+    <tr>
+      <th>Type</th>
+      <td>VPS</td>
+    </tr>
+  </table>
+  </div>
+  <div class='col-sm-4'>
+  <table class='table table-bordered table-striped'>
+    <tr>
+      <th colspan='2' class='text-center'><a href='https://vc.gg/blog/announcing-the-iron-dong-hidden-service-backup-system/'>iron_dong</a></th>
+    </tr>
+    <tr>
+      <th>Host</th>
+      <td>?</td>
+    </tr>
+    <tr>
+      <th>Country</th>
+      <td>?</td>
+    </tr>
+    <tr>
+      <th>IP</th>
+      <td>?</td>
+    </tr>
+    <tr>
+      <th>Type</th>
+      <td>Hidden Service</td>
+    </tr>
+  </table>
+  </div>
+</div>
 @endsection
