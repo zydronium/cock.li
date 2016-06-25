@@ -12,7 +12,11 @@
 </p>
 
 <p>
-  I have no interest in monetizing any aspect of cock.li. All parts of the service are provided for free for everyone, and because of that I ask you to consider donating to cover the cost of hosting and domain registration.
+  Full disclosure: I also operate a website "Cockbox" which is on the cock.li domain (<a href="https://box.cock.li">box.cock.li</a>). It is a VPS hosting company that provides virtual servers for a modest profit. Cockbox is a for-profit venture, while the cock.li mail server operates wholly not-for-profit.
+</p>
+
+<p>
+  I have no interest in monetizing any aspect of the mail server. All parts of the service are provided for free for everyone, and because of that I ask you to consider donating to cover the cost of hosting and domain registration.
 </p>
 
 <h2>Payment Methods</h2>
