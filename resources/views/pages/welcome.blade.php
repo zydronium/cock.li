@@ -59,7 +59,7 @@
       <div class="progress">
         <div class="progress-bar progress-bar-{{ $progress_bar_class }} progress-bar-striped" style="width: <?=sprintf("%1.2f",$progress_bar_width)?>%;"></div>
       </div>
-      <p><strong>Donations</strong>: $<?=sprintf("%1.2f",$_donations)?></p>
+      <p><strong>Donations</strong>: $<?=sprintf("%1.2f",$_donations)?>@if($goal-$_donations>0), <strong>Remaining</strong>: $<?=sprintf("%1.2f",$goal-$_donations)?>@endif</p>
       <p><strong>Goal</strong>: $<?=sprintf("%1.2f",$goal)?> ($<?=sprintf("%1.2f",$donations["this"]["expenses"])?> {{ $balance_operator }} $<?=sprintf("%1.2f",abs($donations["this"]["balance"]))?> {{ $balance_verbage }})</p>
       <h3>Last Month</h3>
       <?php
