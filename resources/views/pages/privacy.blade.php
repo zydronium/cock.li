@@ -4,6 +4,8 @@
 
 @section('content')
 
+<p>This page was last modified on: 2016-07-10. View changes <a href="https://gitgud.io/vc/cock.li/commits/master/resources/views/pages/privacy.blade.php">here</a>.</p>
+
 <h4>Information stored via web servers</h4>
 <p>
   When you visit a page on cock.li, your IP address, user agent, and referer are saved forever. I do this for historical analytics and other cool graph stuff. Some day I'd like to anonymize this data automatically while keeping geoip info, but for now that is not the case.
@@ -40,6 +42,7 @@
     <ul>
       <li>Registering IP address</li>
       <li>Time registered</li>
+      <li>Password changes (only user ID and time are recorded)</li>
     </ul>
     <li>Data stored for 2 days:</li>
     <ul>

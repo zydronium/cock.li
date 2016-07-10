@@ -4,6 +4,8 @@
 
 @section('content')
 
+<p>This page was last modified on: 2016-02-07. View changes <a href="https://gitgud.io/vc/cock.li/commits/master/resources/views/pages/tos.blade.php">here</a>.</p>
+
 <h4>The "Don't sue me" disclaimer</h4>
 <p>This service is provided as-is with no warranty, express or implied. I am under no legal obligation to provide you with service, or keep the service I provide consistent. Don't fucking sue me over shit I don't have an obligation to provide, basically.</p>
 

@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 use Hash;
 use Validator;
 use Auth;
+use App\PasswordChange;
 
 class UserController extends Controller {
 
@@ -40,6 +41,10 @@ class UserController extends Controller {
 		$user = Auth::user();
 		$user->password = Hash::make($request->password);
 		$user->save();
+
+    $password_change = new PasswordChange();
+    $password_change->user_id = $user->id;
+    $password_change->save();
 
 		return redirect('/user/changepass')->with('message','Your password has been changed!');
 		
