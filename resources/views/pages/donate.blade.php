@@ -156,39 +156,49 @@
   Cock.li's donation history is completely transparent. You can view a history of cock.li's finances here:
 </p>
 
-<ul>
-	<li><a href="/donations/2013-11.txt">November 2013</a></li>
-	<li><a href="/donations/2013-12.txt">December 2013</a></li>
-	<li><a href="/donations/2014-01.txt">January 2014</a></li>
-	<li><a href="/donations/2014-02.txt">February 2014</a></li>
-	<li><a href="/donations/2014-03.txt">March 2014</a></li>
-	<li><a href="/donations/2014-04.txt">April 2014</a></li>
-	<li><a href="/donations/2014-05.txt">May 2014</a></li>
-	<li><a href="/donations/2014-06.txt">June 2014</a></li>
-	<li><a href="/donations/2014-07.txt">July 2014</a></li>
-	<li><a href="/donations/2014-08.txt">August 2014</a></li>
-	<li><a href="/donations/2014-09.txt">September 2014</a></li>
-	<li><a href="/donations/2014-10.txt">October 2014</a></li>
-	<li><a href="/donations/2014-11.txt">November 2014</a></li>
-	<li><a href="/donations/2014-12.txt">December 2014</a></li>
-	<li><a href="/donations/2015-01.txt">January 2015</a></li>
-	<li><a href="/donations/2015-02.txt">February 2015</a></li>
-	<li><a href="/donations/2015-03.txt">March 2015</a></li>
-	<li><a href="/donations/2015-04.txt">April 2015</a></li>
-	<li><a href="/donations/2015-05.txt">May 2015</a></li>
-	<li><a href="/donations/2015-06.txt">June 2015</a></li>
-	<li><a href="/donations/2015-07.txt">July 2015</a></li>
-	<li><a href="/donations/2015-08.txt">August 2015</a></li>
-	<li><a href="/donations/2015-09.txt">September 2015</a></li>
-	<li><a href="/donations/2015-10.txt">October 2015</a></li>
-	<li><a href="/donations/2015-11.txt">November 2015</a></li>
-	<li><a href="/donations/2015-12.txt">December 2015</a></li>
-	<li><a href="/donations/2016-01.txt">January 2016</a></li>
-	<li><a href="/donations/2016-02.txt">February 2016</a></li>
-	<li><a href="/donations/2016-03.txt">March 2016</a></li>
-	<li><a href="/donations/2016-04.txt">April 2016</a></li>
-	<li><a href="/donations/2016-05.txt">May 2016</a></li>
-	<li><a href="/donations/2016-06.txt">June 2016</a></li>
-</ul>
+<h3>2013</h3>
+<div class='row text-center'><strong>
+  <a class='col-xs-offset-4 col-sm-offset-8 col-lg-offset-10 col-xs-4 col-sm-2 col-lg-1' href="/donations/2013-11.txt">November</a>
+  <a class='col-xs-4 col-sm-2 col-lg-1' href="/donations/2013-12.txt">December</a>
+</strong></div>
+<h3>2014</h3>
+<div class='row text-center'><strong>
+  <a class='col-xs-4 col-sm-2 col-lg-1' href="/donations/2014-01.txt">January</a>
+  <a class='col-xs-4 col-sm-2 col-lg-1' href="/donations/2014-02.txt">February</a>
+  <a class='col-xs-4 col-sm-2 col-lg-1' href="/donations/2014-03.txt">March</a>
+  <a class='col-xs-4 col-sm-2 col-lg-1' href="/donations/2014-04.txt">April</a>
+  <a class='col-xs-4 col-sm-2 col-lg-1' href="/donations/2014-05.txt">May</a>
+  <a class='col-xs-4 col-sm-2 col-lg-1' href="/donations/2014-06.txt">June</a>
+  <a class='col-xs-4 col-sm-2 col-lg-1' href="/donations/2014-07.txt">July</a>
+  <a class='col-xs-4 col-sm-2 col-lg-1' href="/donations/2014-08.txt">August</a>
+  <a class='col-xs-4 col-sm-2 col-lg-1' href="/donations/2014-09.txt">September</a>
+  <a class='col-xs-4 col-sm-2 col-lg-1' href="/donations/2014-10.txt">October</a>
+  <a class='col-xs-4 col-sm-2 col-lg-1' href="/donations/2014-11.txt">November</a>
+  <a class='col-xs-4 col-sm-2 col-lg-1' href="/donations/2014-12.txt">December</a>
+</strong></div>
+<h3>2015</h3>
+<div class='row text-center'><strong>
+  <a class='col-xs-4 col-sm-2 col-lg-1' href="/donations/2015-01.txt">January</a>
+  <a class='col-xs-4 col-sm-2 col-lg-1' href="/donations/2015-02.txt">February</a>
+  <a class='col-xs-4 col-sm-2 col-lg-1' href="/donations/2015-03.txt">March</a>
+  <a class='col-xs-4 col-sm-2 col-lg-1' href="/donations/2015-04.txt">April</a>
+  <a class='col-xs-4 col-sm-2 col-lg-1' href="/donations/2015-05.txt">May</a>
+  <a class='col-xs-4 col-sm-2 col-lg-1' href="/donations/2015-06.txt">June</a>
+  <a class='col-xs-4 col-sm-2 col-lg-1' href="/donations/2015-07.txt">July</a>
+  <a class='col-xs-4 col-sm-2 col-lg-1' href="/donations/2015-08.txt">August</a>
+  <a class='col-xs-4 col-sm-2 col-lg-1' href="/donations/2015-09.txt">September</a>
+  <a class='col-xs-4 col-sm-2 col-lg-1' href="/donations/2015-10.txt">October</a>
+  <a class='col-xs-4 col-sm-2 col-lg-1' href="/donations/2015-11.txt">November</a>
+  <a class='col-xs-4 col-sm-2 col-lg-1' href="/donations/2015-12.txt">December</a>
+</strong></div>
+<h3>2016</h3>
+<div class='row text-center'><strong>
+  <a class='col-xs-4 col-sm-2 col-lg-1' href="/donations/2016-01.txt">January</a>
+  <a class='col-xs-4 col-sm-2 col-lg-1' href="/donations/2016-02.txt">February</a>
+  <a class='col-xs-4 col-sm-2 col-lg-1' href="/donations/2016-03.txt">March</a>
+  <a class='col-xs-4 col-sm-2 col-lg-1' href="/donations/2016-04.txt">April</a>
+  <a class='col-xs-4 col-sm-2 col-lg-1' href="/donations/2016-05.txt">May</a>
+  <a class='col-xs-4 col-sm-2 col-lg-1' href="/donations/2016-06.txt">June</a>
+</strong></div>
 
 @endsection
