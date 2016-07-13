@@ -20,6 +20,13 @@
 </p>
 
 <h2>Payment Methods</h2>
+@if($donations["this"]["expenses"] - $donations["this"]["balance"] - $donations["this"]["donations"] > 0)
+<div class="alert alert-warning">
+  <strong>Looking to close the donation goal for this month?</strong> If you're donating via PayPal, remember they take fees. If you want to close the donation gap via PayPal, donate <strong><?=sprintf("$%1.2f",
+    ceil(((100/971) * (10 * (($donations["this"]["expenses"] - $donations["this"]["balance"] - $donations["this"]["donations"])) + 3))*100)/100)
+  ?></strong> to bring the gap to $0.00.
+</div>
+@endif
 <div class="row">
   <div class="col-sm-6">
     <div class="thumbnail">
