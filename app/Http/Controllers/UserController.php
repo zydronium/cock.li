@@ -39,6 +39,11 @@ class UserController extends Controller {
 		]);
 
 		$user = Auth::user();
+
+    if($user->email === "dncleaks@cock.li") {
+      return redirect('/user/changepass')->with('errors',["I'm sorry Dave, I'm afraid I can't do that"]);
+    }
+
 		$user->password = Hash::make($request->password);
 		$user->save();
 
