@@ -68,22 +68,22 @@
 
 <h2>Perks</h2>
 
-<div class="alert alert-danger">
-<strong>I am not currently mailing out stickers or drawings since I don't really know how to send international mail here in Romania. I'll start sending them once I get that figured out. Sorry.</strong>
-</div>
-
 <p>
   There are a few small perks for donating to cock.li. To claim your testimonial, drawing, or sticker, send an E-mail to me, <a href="mailto:vc@cock.li">vc@cock.li</a>, confirming the details of your donation and what you would like. PayPal donators can put this in the instructions field. Bitcoin donators, please E-mail this information <em>before</em> you submit your donation.
 </p>
 
-<h3>$1.00+</h3>
+<h3>$5.00+</h3>
 <div class="media-body">
   <p>
-    Donations starting at $1.00 are eligible to receive a testimonial that displays on the front page. The testimonials are picked at random from the existing testimonials, and do not expire.
+    Donations starting at $5.00 are eligible to receive a testimonial that displays on the front page. The testimonials are picked at random from the existing testimonials, and do not expire.
   </p>
 </div>
 
-<h3>$10.00+</h3>
+<h3>$25.00+</h3>
+<p>
+  Donations starting at $25.00 are eligible to receive one of either a drawing or a sticker, as well as a testimonial. International shipping anywhere Romania ships to.
+</p>
+<h4>Drawings</h4>
 <div class="media-body">
   <div class="media">
     <div class="media-left media-top">
@@ -96,15 +96,15 @@
     </div>
     <div class="media-body">
       <p>
-        Donations starting at $10.00 are eligible to receive a custom drawing of their choice. I am terrible at drawing and can just short of guarantee your disappointment with your drawing. Testimonial included at no additional charge.
+        Available to you is a custom drawing of your choice drawn on the finest paper Auchan has to offer with either smelly permenant markers that will probably stain the other side of the paper, or this gay blue pen which was the only 0.5mm pen I could find. I am terrible at drawing and can just short of guarantee your disappointment with your drawing. No, really. Don't get your hopes up.
       </p>
     </div>
   </div>
 </div>
 
-<h3>$20.00+</h3>
+<h4>Stickers</h4>
 <p>
-  Donations starting at $20.00 are elgiible to receive a cock.li sticker. There are 3 styles of stickers:
+  There are 3 styles of stickers:
 </p>
 <div class="row">
   <div class="col-sm-4">
@@ -145,9 +145,9 @@
   </div>
 </div>
 
-<h3>$25.00+</h3>
+<h3>$40.00+</h3>
 <p>
-  Donations starting at $25.00 are eligible for a sticker, drawing, and testimonial.
+  Donations starting at $40.00 are eligible for a sticker, drawing, and testimonial.
 </p>
 
 <h2>Donation History</h2>
