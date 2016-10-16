@@ -43,27 +43,6 @@
       </div>
     </div>
   </div>
-  <div class="col-sm-6">
-    <div class="thumbnail">
-      <img src="/img/donate/paypal.svg" />
-      <div class="caption">
-        <h3>PayPal</h3>
-        <p>
-          Donate fees to your jewish overlords.
-        </p>
-        <p>
-        <br /> 
-        </p>
-					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-						<input type="hidden" name="cmd" value="_s-xclick">
-						<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIHLwYJKoZIhvcNAQcEoIIHIDCCBxwCAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYAstXl0EXVRmKuQ3umROckGf0O580tgFklHIl3N7jUpuqQltXD4l2T7FIl/h7S1jWiCkO0DyM5QBkjSHpyVQKrR4y2AMw6/cP5LCbR/AzXE6eI6gfChYdSWDVIe3bERVEK2iw1hzPm1tD5zqA6r7fn7mjbcbkeXOpMsu9kbJO/wEzELMAkGBSsOAwIaBQAwgawGCSqGSIb3DQEHATAUBggqhkiG9w0DBwQIStRk5mk5QOuAgYi98plfH6Uq7FPWM9z37mX4Bj3QuuPPu7LtwTbz6fRdnP7d8Zh4a18btIT5svagtLcwYg3T99bDhdy/cwTkBFlWd6CbYWJovBVmx3p126Zf/yGt6elTmpIZfLUYHdCP1uAgs/fJ95Po0gKWeRB54/fyMR8BCMOaF+v/c7ghE1rW+BpYQgArci6eoIIDhzCCA4MwggLsoAMCAQICAQAwDQYJKoZIhvcNAQEFBQAwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMB4XDTA0MDIxMzEwMTMxNVoXDTM1MDIxMzEwMTMxNVowgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBR07d/ETMS1ycjtkpkvjXZe9k+6CieLuLsPumsJ7QC1odNz3sJiCbs2wC0nLE0uLGaEtXynIgRqIddYCHx88pb5HTXv4SZeuv0Rqq4+axW9PLAAATU8w04qqjaSXgbGLP3NmohqM6bV9kZZwZLR/klDaQGo1u9uDb9lr4Yn+rBQIDAQABo4HuMIHrMB0GA1UdDgQWBBSWn3y7xm8XvVk/UtcKG+wQ1mSUazCBuwYDVR0jBIGzMIGwgBSWn3y7xm8XvVk/UtcKG+wQ1mSUa6GBlKSBkTCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb22CAQAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOBgQCBXzpWmoBa5e9fo6ujionW1hUhPkOBakTr3YCDjbYfvJEiv/2P+IobhOGJr85+XHhN0v4gUkEDI8r2/rNk1m0GA8HKddvTjyGw/XqXa+LSTlDYkqI8OwR8GEYj4efEtcRpRYBxV8KxAW93YDWzFGvruKnnLbDAF6VR5w/cCMn5hzGCAZowggGWAgEBMIGUMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbQIBADAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMTMxMTI0MjA0MTIzWjAjBgkqhkiG9w0BCQQxFgQUIsH2Ah4NZs3GNivtwq5yaxUdWJ4wDQYJKoZIhvcNAQEBBQAEgYAkwa7Whzha7CjtWq7nk62RwqVYfbFphZp1fA7WQ63bw13nyvnLdcXgwKGeq/7mOZZksDer/DZZfVJcxbSF679lQk4kX6B2B7rUtyHLt+NkXaj6S/6Mpk4XOxkySiLEgasq3PKiSQLED2bYhlqkQq7Ifc0hU8/1yGcxaJZdVhni3g==-----END PKCS7-----
-						">
-        		<input type="submit" class="btn btn-block btn-success" value="Donate with PayPal" />
-						<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-					</form>
-      </div>
-    </div>
-  </div>
 </div>
 
 <h2>Perks</h2>
