@@ -3,6 +3,17 @@
 @section ('title')Donate @endsection
 
 @section('content')
+@if (isset($error) || $error=session('error'))
+  <div class="alert alert-danger">
+    {{ $error }}
+  </div>
+@endif
+
+@if(isset($message) || $message=session('message'))
+  <div class="alert alert-success">
+    {{ $message }}
+  </div>
+@endif
 <p>
   Maintaining cock.li requires a decent amount of money to run. I'm committed to keeping these expenses as low as possible, but as the site continues to expand, the site relies on donations to pay the bills.
 </p>
@@ -22,7 +33,7 @@
 <h2>Payment Methods</h2>
 @if($donations["this"]["expenses"] - $donations["this"]["balance"] - $donations["this"]["donations"] > 0)
 <div class="alert alert-warning">
-  <strong>Looking to close the donation goal for this month?</strong> If you're donating via PayPal, remember they take fees. If you want to close the donation gap via PayPal, donate <strong><?=sprintf("$%1.2f",
+  <strong>Looking to close the donation goal for this month?</strong> If you're donating via Stripe, remember they take fees. If you want to close the donation gap via Stripe, donate <strong><?=sprintf("$%1.2f",
     ceil(((100/971) * (10 * (($donations["this"]["expenses"] - $donations["this"]["balance"] - $donations["this"]["donations"])) + 3))*100)/100)
   ?></strong> to bring the gap to $0.00.
 </div>
@@ -43,12 +54,59 @@
       </div>
     </div>
   </div>
+  <div class="col-sm-6">
+    <div class="thumbnail">
+      <img src="/img/donate/stripe.svg" />
+      <div class="caption">
+        <h3>Stripe</h3>
+        <p>
+          Donate with your credit / debit card using Stripe. Your card data is never sent to or stored on cock.li.
+        </p>
+        <form method="POST">
+          <input type="hidden" name="_token" value="{{ csrf_token()  }}">
+          <div class="input-group">
+            <div class="input-group-addon">$</div>
+            <input name="amount" class="text" class="form-control" id="stripeAmount" placeholder="69" style="width:100px;" />
+            <span class="input-group-btn" style="width:100%;">
+              <button class="btn btn-block btn-success" id="stripeSubmit" >Donate with Stripe</button>
+            </span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
 </div>
+<script src="https://checkout.stripe.com/checkout.js"></script>
+<script>
+window.onload = function(){
+  var handler = StripeCheckout.configure({
+    key: '{{ env('STRIPE_PUBLIC') }}',
+    locale: 'auto',
+    token: function(token) {
+      $('<input>').attr({
+        type: 'hidden',
+        name: 'stripeToken',
+        value: token.id
+      }).appendTo('form');
+      $('form').submit();
+    }
+  });
+
+  $("#stripeSubmit").on("click", function(e) {
+    handler.open({
+      name: 'Cock.li Donation',
+      description: ':3',
+      amount: $('#stripeAmount').val() * 100
+    });
+    e.preventDefault();
+  });
+}
+</script>
 
 <h2>Perks</h2>
 
 <p>
-  There are a few small perks for donating to cock.li. To claim your testimonial, drawing, or sticker, send an E-mail to me, <a href="mailto:vc@cock.li">vc@cock.li</a>, confirming the details of your donation and what you would like. PayPal donators can put this in the instructions field. Bitcoin donators, please E-mail this information <em>before</em> you submit your donation.
+  There are a few small perks for donating to cock.li. To claim your testimonial, drawing, or sticker, send an E-mail to me, <a href="mailto:vc@cock.li">vc@cock.li</a>, confirming the details of your donation and what you would like. Bitcoin donators, please E-mail this information <em>before</em> you submit your donation.
 </p>
 
 <h3>$5.00+</h3>

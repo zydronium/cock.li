@@ -33,6 +33,8 @@ Route::get('/donate', function() {
   return view('pages.donate')->with('donations',App\Http\Controllers\DonationController::calculate());;
 });
 
+Route::post('/donate','\App\Http\Controllers\DonationController@postDonate');
+
 Route::get('/tos', function() {
   return view('pages.tos');
 });

@@ -7,6 +7,7 @@ use Carbon\Carbon;
 
 use App\Donation;
 use App\Expense;
+use Mail;
 
 class DonationController extends Controller {
 
@@ -72,5 +73,31 @@ class DonationController extends Controller {
       $donations["this"]["expenses"] += $expense->amount;
 
     return $donations;
+  }
+
+  public function postDonate(Request $request) {
+    \Stripe\Stripe::setApiKey(env("STRIPE_SECRET"));
+
+    if(!$request->has('stripeToken') || !$request->has('amount'))
+      die("Donating with Stripe requires javascript homie");
+
+    try {
+      $response = \Stripe\Charge::create(array(
+        "amount" => $request->input('amount') * 100, // amount in cents, again
+        "currency" => "usd",
+        "source" => $request->input('stripeToken'),
+        "description" => "cock.li donation"
+      ));
+    } catch (\Stripe\Error\Base $e) {
+      return redirect('/donate')->with('error','There was an error processing your donation. Sorry :^)');
+    } catch(\Stripe\Error\Card $e) {
+      return redirect('/donate')->with('error','Your card was declined dude :((((');
+    }
+
+    Mail::send(['text' => 'emails.donation'], ['amount' => (float) $request->input('amount')], function($message){
+      $message->to('vc@cock.li')->subject('Cock.li Donation Notification');
+    });
+
+    return redirect('/donate')->with('message','Your donation was successfully received! Thanks!');
   }
 }
