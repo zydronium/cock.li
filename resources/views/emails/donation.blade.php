@@ -1,1 +1,1 @@
-holla holla cock.li was just donated $amount
+holla holla cock.li was just donated {{ $amount }}
