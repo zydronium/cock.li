@@ -239,6 +239,7 @@ window.onload = function(){
   <a class='col-xs-4 col-sm-2 col-lg-1' href="/donations/2016-07.txt">July</a>
   <a class='col-xs-4 col-sm-2 col-lg-1' href="/donations/2016-08.txt">August</a>
   <a class='col-xs-4 col-sm-2 col-lg-1' href="/donations/2016-09.txt">September</a>
+  <a class='col-xs-4 col-sm-2 col-lg-1' href="/donations/2016-10.txt">October</a>
 </strong></div>
 
 @endsection
