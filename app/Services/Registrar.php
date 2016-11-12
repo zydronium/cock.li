@@ -48,7 +48,7 @@ class Registrar implements RegistrarContract {
 			'email' => strtolower($data['username'] . '@' . $data['domain']),
 			'password' => bcrypt($data['password']),
       'registered_ip' => $_SERVER['REMOTE_ADDR'],
-      'mail_location' => strtolower(sprintf('mdbox:/mnt/mail/vhosts/%s/%s/',$data['domain'],$data['username']))
+      'mail_location' => strtolower(sprintf('mdbox:/var/mail/vhosts/%s/%s/',$data['domain'],$data['username']))
 		]);
 	}
 
