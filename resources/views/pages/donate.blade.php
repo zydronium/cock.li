@@ -19,7 +19,7 @@
 </p>
 
 <p>
-  Cock.li operates with a rolling budget. This means that if expenses are <i>x</i> and donations are <i>x+$5.00</i>, next month's goal is </i>x-$5.00</i>. Likewise if there are <i>x-$5.00</i> donations, the next month's goal is <i>x+$5.00</i>. This ensures that cock.li operates not-for-profit, and any money donated goes directly to the service.
+  Cock.li operates with a rolling budget. This means that if expenses are <i>x</i> and donations are <i>x+$5.00</i>, next month's goal is <i>x-$5.00</i>. Likewise if there are <i>x-$5.00</i> donations, the next month's goal is <i>x+$5.00</i>. This ensures that cock.li operates not-for-profit, and any money donated goes directly to the service.
 </p>
 
 <p>
