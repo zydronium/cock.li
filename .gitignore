@@ -4,3 +4,4 @@
 /public/donations
 .env
 log
+*.swp
