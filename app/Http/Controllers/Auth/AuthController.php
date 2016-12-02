@@ -35,7 +35,7 @@ class AuthController extends Controller {
 	{
 		$this->auth = $auth;
 		$this->registrar = $registrar;
-    $this->redirectTo  = "/user";
+    $this->redirectTo  = "/user/congrats";
 
 		$this->middleware('guest', ['except' => 'getLogout']);
 	}
@@ -82,11 +82,13 @@ class AuthController extends Controller {
       `echo "$un" | /usr/lib/mailman/bin/add_members -w n -r - cock.li-news`;
     }
 
-    Mail::send(['text' => 'emails.welcome'], ['username' => Auth::user()->email], function($message){
-      $message->to(Auth::user()->email)->subject('Welcome to Cockmail!');
-    });
+    if(env('APP_ENV','local') === 'production') {
+      Mail::send(['text' => 'emails.welcome'], ['username' => Auth::user()->email], function($message){
+        $message->to(Auth::user()->email)->subject('Welcome to Cockmail!');
+      });
+    }
 
-		return redirect($this->redirectPath());
+    return redirect($this->redirectPath())->with('just_registered',true);
 	}
 
 }

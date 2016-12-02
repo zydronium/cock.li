@@ -20,6 +20,13 @@ class UserController extends Controller {
   		return view('pages.user.home');
 	}
 
+  public function getCongrats() {
+    if(!session()->has('just_registered'))
+      return redirect('/user');
+
+    return view('pages.user.congrats');
+  }
+
 	public function getChangepass() {
 		return view('pages.user.changepass');
 	}
