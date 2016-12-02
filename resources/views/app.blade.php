@@ -22,13 +22,13 @@
 		_paq.push(['enableLinkTracking']);
 		(function() {
 			var u="//stats.vc.gg/";
-			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setTrackerUrl', u+'meme.php']);
 			_paq.push(['setSiteId', '1']);
 			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'meme.js'; s.parentNode.insertBefore(g,s);
 		})();
 	</script>
-<noscript><p><img src="//stats.vc.gg/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+<noscript><p><img src="//stats.vc.gg/stats.php?idsite=1" style="border:0;" alt="" /></p></noscript>
 </head>
 <body>
   <div class="container">
