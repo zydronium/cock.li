@@ -4,27 +4,25 @@
 
 @section('content')
 
-<p>This page was last modified on: 2016-07-10. View changes <a href="https://gitgud.io/vc/cock.li/commits/master/resources/views/pages/privacy.blade.php">here</a>.</p>
+<p>This page was last modified on: 2016-12-03. View changes <a href="https://gitgud.io/vc/cock.li/commits/master/resources/views/pages/privacy.blade.php">here</a>.</p>
 
 <h4>Information stored via web servers</h4>
 <p>
-  When you visit a page on cock.li, your IP address, user agent, and referer are saved forever. I do this for historical analytics and other cool graph stuff. Some day I'd like to anonymize this data automatically while keeping geoip info, but for now that is not the case.
+  HTTP access logs for cock.li are retained for 2 days. Anonymized analytics information is collected by the self-hosted libre software <a href="https://piwik.org/">Piwik</a> and is periodically anonymized and scrubbed. Information compiled from this non-identifying information may be made public at any time. Visitors who have the <a href="http://donottrack.us/">Do Not Track</a> header set are not tracked by Piwik.
 </p>
 <p>
-  Logs for mail.cock.li (webmail) is completely disabled.
-</p>
-<p>
-  I anonymize any data calculated using the HTTP access logs before publishing them. Promise.
+  HTTP access logs for mail.cock.li (webmail) are completely disabled.
 </p>
 
-<h4>Information stored via xmpp servers</h4 
+<h4>Information stored via xmpp servers</h4>
 <p>
   Only the bare info is stored, meaning your roster list and any info like mood or whatever you provide to the server. All logging is disabled.
 </p>
 
 <h4>Information stored via mail servers</h4>
 <p>
-  Here's the juicy stuff. There are 3 classes of information here: Public, confidential, and private. They are listed and explained below.</p>
+  Here's the juicy stuff. There are 3 classes of information here: Public, confidential, and private. They are listed and explained below.
+</p>
 
 <ul>
   <li>Public (May be made public at any time)</li>
